@@ -8,5 +8,5 @@ import { FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   genders = ['male', 'female'];
-  signupForm: FormGroup
+  signupForm: FormGroup;
 }
