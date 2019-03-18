@@ -40,7 +40,7 @@
           <div class="form-group"
           *ngFor="let hobbyControl of signupForm.get('hobbies').controls; let i = index">
             <input type="text" class="form-control" [formControlName]="i">
-          </div> 
+          </div>
         </div>
         <span
           *ngIf="!signupForm.valid && signupForm.touched"
